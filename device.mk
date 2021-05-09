@@ -84,6 +84,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     init.mt6785.rc \
     fstab.mt6785 \
+    perf_profile.sh \
     init.ago.rc \
     fstab.enableswap \
     init.safailnet.rc
