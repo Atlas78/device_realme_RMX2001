@@ -79,3 +79,7 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.zram.first_wb_delay_mins=180 \
     ro.zram.first_wb_delay_mins=1440 \
     ro.zram.periodic_wb_delay_hours=24
+
+# Priv-app permission
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.control_privapp_permissions=log
