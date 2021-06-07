@@ -23,6 +23,8 @@ $(call inherit-product, device/realme/RMX2001/device.mk)
 
 # Inherit some common Evolution X stuff.
 $(call inherit-product, vendor/evolution/config/common_full_phone.mk)
+TARGET_BOOT_ANIMATION_RES := 1080
+EVO_BUILD_TYPE := OFFICIAL
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := evolution_RMX2001
