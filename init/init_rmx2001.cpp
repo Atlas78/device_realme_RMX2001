@@ -48,7 +48,6 @@ void load_rmx2001() {
     property_override("ro.build.product", "RMX2001");
     property_override("ro.product.device", "RMX2001");
     property_override("ro.build.description", "full_oppo6785-user 10 QP1A.190711.020 0b36b6c4f9b3bf3b release-keys");
-    property_override("ro.build.fingerprint", "google/sunfish/sunfish:11/RQ2A.210505.002/7246365:user/release-keys");
 }
 
 void vendor_load_properties() {
