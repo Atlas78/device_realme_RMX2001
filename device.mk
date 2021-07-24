@@ -84,8 +84,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     init.mt6785.rc \
     fstab.mt6785 \
-    perf_profile.sh \
-    fstab.enableswap
+    perf_profile.sh
 
 # Keylayouts
 PRODUCT_COPY_FILES += \
