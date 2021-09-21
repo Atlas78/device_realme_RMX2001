@@ -85,25 +85,6 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.surface_flinger.supports_background_blur=1 \
     ro.sf.blurs_are_expensive=1
-	
-# Tweak the memory management of the device, enable more background apps.. etc..
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.config.fha_enable=true \
-    ro.sys.fw.bg_apps_limit=32 \
-    ro.config.dha_cached_max=16 \
-    ro.config.dha_empty_max=42 \
-    ro.config.dha_empty_init=32 \
-    ro.config.dha_lmk_scale=0.545 \
-    ro.config.dha_th_rate=2.3 \
-    ro.config.sdha_apps_bg_max=64 \
-    ro.config.sdha_apps_bg_min=8
-
-# ZRAM
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.zram.mark_idle_delay_mins=60 \
-    ro.zram.first_wb_delay_mins=180 \
-    ro.zram.first_wb_delay_mins=1440 \
-    ro.zram.periodic_wb_delay_hours=24
 
 # Priv-app permission
 PRODUCT_PRODUCT_PROPERTIES += \
